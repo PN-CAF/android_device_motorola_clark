@@ -36,8 +36,11 @@ bin/fm_qsoc_patches
 vendor/bin/audioflacapp
 lib/libaudioroute.so
 lib/libaudiopolicymanager.so
+lib64/libaudiopolicymanager.so
 lib/libaudiopolicymanagerdefault.so
+lib64/libaudiopolicymanagerdefault.so
 lib/libaudiopolicyservice.so
+lib64/libaudiopolicyservice.so
 lib/hw/audio.primary.msm8992.so
 lib/hw/audio.motvr.default.so
 lib/libmotaudioutils.so
@@ -56,12 +59,15 @@ vendor/lib/libadiertac.so
 vendor/lib64/libadiertac.so
 vendor/lib/libaudcal.so
 vendor/lib64/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib64/libaudioalsa.so
 vendor/lib/libhwdaphal.so
 vendor/lib64/libhwdaphal.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 lib/soundfx/libmmieffectswrapper.so
+lib/soundfx/libspeakerbundle.so
 etc/acdbdata/General_cal.acdb
 etc/acdbdata/Bluetooth_cal.acdb
 etc/acdbdata/Global_cal.acdb
@@ -292,8 +298,6 @@ vendor/lib64/libqti-iop-client.so
 # DM/Sprint
 -app/DMConfigUpdateLight/DMConfigUpdateLight.apk
 -app/HiddenMenuLight/HiddenMenuLight.apk
-etc/permissions/com.android.omadm.service.xml
-etc/sysconfig/whitelist_com.android.omadm.service.xml
 lib/libdmengine.so
 lib/libdmjavaplugin.so
 -priv-app/CQATest/CQATest.apk
